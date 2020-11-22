@@ -35,31 +35,34 @@ namespace root {
 
 	double root_iterative(double q, int n, int steps)
 	{
-		double a=1;
+		double a=1.0;
 		double b;
 		for (int i=1; i <= steps; i++)
 		{
-			b = std::pow(a, n-1);
-			a = a+(1.0/n) * ( ( q/b  ) -a );
+			b= std::pow(a, n-1);
+			a = a + (1/n) * ( ( q/b  ) -a );
 		}
 		return a;
 	}
 
-	void test_root(double q, int n, int steps)
-	{
-		double a=1;
-		double test;
-		double differenz;
-		double b;
-	      	for (int i=1; i <= steps; i++)
-      		{
-      			b = std::pow(a, n-1);
-      			a = a+(1.0/n) * ( ( q/b  ) -a );
-      		}
-		test=std::pow( a, n);
-		differenz=q-test;
-		std::cout << n << "-te Wurzel = " << a << "\n" << n << "-te Wurzel hoch " << n << " = " << test << "\nDifferenz = " << differenz << std::endl;
-	}
+//	void root_test(double q, int n, int steps)
+//	{
+//		int i=1;
+//		double a=1;
+//		double test;
+//		double differenz;
+//		double b
+//		for (int i=1; i <= steps; i++)
+//		while (i <= steps)
+//		{
+//			b= std:pow(a, n-1)
+//			a = a + (1/n) * ( ( q/b  ) -a );
+//			i=i+1;
+//		}
+//		test=power::power_iterative( a, n);
+//		differenz=q-test;
+//		std::cout << n << "-te Wurzel = " << a << "\n" << n << "-te Wurzel hoch " << n << " = " << test << "\nDifferenz = " << differenz << std::endl;
+//	}
 
 }
 
@@ -86,7 +89,7 @@ int main(int argc, char** argv)
 	ite = root::root_iterative(q, n, steps);
 	// Ausgeben auf stdout 
 	std::cout << "iterativ berechnete Wurzel = " << ite << std::endl;
-	root::test_root(q, n, steps);
+//	root::root_test(q, n, steps);
 	return 0;
 }
 
