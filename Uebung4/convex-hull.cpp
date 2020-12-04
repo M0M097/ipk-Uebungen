@@ -65,6 +65,7 @@ bool sort_by_angle(std::array<double, 2> a, std::array<double, 2> b)
 	double xA;
 	double yA;
 	double xB;
+	double yB;
 	double xC;
 	double yC;
 	double lage;
@@ -74,9 +75,10 @@ bool sort_by_angle(std::array<double, 2> a, std::array<double, 2> b)
 		xA = points[i-1][0];
 		yA = points[i-1][1];
 		xB = points[i+1][0];
+		yB = points[i+1][1];
 		xC = points[i][0];
 		yC = points[i][1];
-		lage = (xB - xA)*(yC - yA)-(xC-xA)*(xB-yA); //links oder rechts?
+		lage = (xB - xA)*(yC - yA)-(xC-xA)*(yB-yA); //links oder rechts?
 		if (lage <= 0)
 		{
 			hull.push_back(points[i]);
