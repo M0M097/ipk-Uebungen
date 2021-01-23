@@ -10,3 +10,5 @@ build/
 # Aufgabenstellungen und Lektionen
 *.pdf
 *.Pdf
+# Archive
+*.tar*
