@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Aufgabe_1_uniform.dir/Aufgabe_1_uniform.cpp.o -o Aufgabe_1_uniform  libuebung05.a 

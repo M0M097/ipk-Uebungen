@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Aufgabe_1_normal.dir/Aufgabe_1_normal.cpp.o -o Aufgabe_1_normal  libuebung05.a 

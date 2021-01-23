@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuebung05.a CMakeFiles/uebung05.dir/io.cc.o CMakeFiles/uebung05.dir/statistics.cc.o
+/usr/bin/ranlib libuebung05.a

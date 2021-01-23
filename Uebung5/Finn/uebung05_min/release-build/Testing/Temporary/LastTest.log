@@ -1,0 +1,33 @@
+Start testing: Dec 09 23:59 CET
+----------------------------------------------------------
+1/2 Testing: test_mean
+1/2 Test: test_mean
+Command: "/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/release-build/test_mean"
+Directory: /home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/release-build
+"test_mean" start time: Dec 09 23:59 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_mean" end time: Dec 09 23:59 CET
+"test_mean" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_median
+2/2 Test: test_median
+Command: "/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/release-build/test_median"
+Directory: /home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/release-build
+"test_median" start time: Dec 09 23:59 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_median" end time: Dec 09 23:59 CET
+"test_median" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 09 23:59 CET

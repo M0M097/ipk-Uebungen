@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/Aufgabe_1_normal.cpp
+iostream
+-
+io.hh
+/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/io.hh
+statistics.hh
+/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/statistics.hh
+
+/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/io.hh
+vector
+-
+
+/home/moritz/Dokumente/Master/C++/Uebung5/Finn/uebung05_min/statistics.hh
+vector
+-
+

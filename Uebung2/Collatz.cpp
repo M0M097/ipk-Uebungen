@@ -38,11 +38,10 @@ int main(int argc, char ** argv)
 {
 	//Variablendeklaration
 	int startwert;
-	bool fortsetzen = true;
-	while(fortsetzen == true)
+	while(true)
 	{
 		//Fragt nach Input
-		startwert = ask("Geben Sie einen Startwert für die Collatz-Folge  ein");
+		startwert = ask("Geben Sie einen Startwert für die Collatz-Folge ein");
 		//Ruft collatz auf 
 		collatz(startwert);
 	}

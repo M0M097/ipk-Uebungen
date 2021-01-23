@@ -1,0 +1,2 @@
+/usr/bin/ar qc libio_statistics.a CMakeFiles/io_statistics.dir/io.cc.o CMakeFiles/io_statistics.dir/statistics.cc.o
+/usr/bin/ranlib libio_statistics.a

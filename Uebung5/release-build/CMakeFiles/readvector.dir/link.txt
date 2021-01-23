@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/readvector.dir/readvector.cpp.o -o readvector  libio_statistics.a 

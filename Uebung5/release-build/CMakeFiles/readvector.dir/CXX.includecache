@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moritz/Dokumente/Master/C++/Uebung5/io.hh
+vector
+-
+
+/home/moritz/Dokumente/Master/C++/Uebung5/readvector.cpp
+io.hh
+/home/moritz/Dokumente/Master/C++/Uebung5/io.hh
+statistics.hh
+/home/moritz/Dokumente/Master/C++/Uebung5/statistics.hh
+iostream
+-
+vector
+-
+
+/home/moritz/Dokumente/Master/C++/Uebung5/statistics.hh
+vector
+-
+
